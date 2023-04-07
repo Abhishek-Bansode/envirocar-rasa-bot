@@ -208,3 +208,82 @@ nlu:
     examples: |
       - what is envirocar?
       - envirocar
+
+  - intent: report_fuel_level
+    examples: |
+      - my fuel level is low
+      - I need to refuel my car
+      - my fuel level is at 50%
+      - I have half a tank of gas
+      - my gas gauge is at half
+      - fuel level 50 percent
+      - tank is 50 percent full
+      - my fuel level is low, around 20%
+      - I need to refuel soon, I'm at 30%
+      - almost out of gas, only 10% left
+      - running low on fuel, at 15%
+
+  - intent: ask_about_charging_stations
+    examples: |
+      - where can I find charging stations?
+      - are there any charging stations nearby?
+
+  - intent: report_speed
+    examples: |
+      - I'm driving at 60 miles per hour
+      - My current speed is 70 kilometers per hour
+      - I'm going about 50 miles an hour right now
+
+  - intent: find_gas_station
+    examples: |
+      - Where is the nearest gas station?
+      - Can you give me directions to the nearest gas station?
+      - I need to fill up my tank, where should I go?
+
+  - intent: set_reminder
+    examples: |
+      - Remind me to change my oil in 3 months
+      - Schedule a tire rotation for next week
+      - I need a reminder to check my brake pads in 6 months
+
+  - intent: report_location
+    examples: |
+      - I'm at the corner of 1st and Main
+      - My current location is 40.7128° N, 74.0060° W
+      - I'm parked in front of the grocery store
+
+  - intent: schedule_service
+    examples: |
+      - Schedule a service appointment for next Wednesday at 10am
+      - When is the earliest available service appointment?
+      - Can you schedule me for an oil change and tire rotation next week?
+
+  - intent: check_weather
+    examples: |
+      - What's the weather like in San Francisco?
+      - Is it going to rain today?
+      - What's the forecast for the weekend?
+
+  - intent: report_mileage
+    examples: |
+      - My car has 50,000 miles on it
+      - I've put about 10,000 miles on my car since my last oil change
+      - How often should I be changing my oil at 75,000 miles?
+
+  - intent: find_parking
+    examples: |
+      - Where can I find parking near the stadium?
+      - Is there parking available at the mall?
+      - How much does parking cost in downtown?
+
+  - intent: check_traffic
+    examples: |
+      - Is there traffic on the freeway right now?
+      - How long will it take me to get to work today?
+      - What's the traffic like on the bridge?
+
+  - intent: report_problem
+    examples: |
+      - My engine is making a strange noise
+      - My brakes are squeaking, what should I do?
+      - I'm seeing a warning light on my dashboard, what does it mean?
